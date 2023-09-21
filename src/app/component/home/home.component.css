@@ -1,0 +1,30 @@
+.landing{
+    width: 100%;
+    background-image: url("src/assets/images/intro-bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center, center;
+    background-attachment: fixed;
+    }
+    .landing .main-landing{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    }
+    .landing .main-landing h1{
+    font-size:65px;
+    font-weight: 700;
+    line-height: 1.5;
+    }
+    .landing .main-landing h2{
+    font-size:36px;
+    font-weight: 200;
+    }
+    .landing .main-landing h2::before{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    }

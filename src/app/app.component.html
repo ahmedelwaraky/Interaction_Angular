@@ -1,0 +1,5 @@
+<app-navbar (myEvent)="execute($event)"></app-navbar>
+<app-home *ngIf="currentComponent =='home' "></app-home>
+<app-about *ngIf="currentComponent =='about' "></app-about>
+<app-serves *ngIf="currentComponent =='serves' "></app-serves>
+<app-content *ngIf="currentComponent =='content' "></app-content>

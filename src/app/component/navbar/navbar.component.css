@@ -1,0 +1,55 @@
+.navbar-toggler{
+    border: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-child(1){
+    transform: rotate(45deg);
+  
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-child(2){
+  display:none;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-child(3){
+    transform: rotate(135deg);
+    margin-top: -6px;
+  }
+  .navbar-toggler .navbar-toggler-icon{
+  background: 0;
+  background-color: #fff;
+  height: 2px;
+  margin-bottom: 4px;
+  transition: .2s all ease-in-out;
+  }
+  .navbar-toggler .navbar-toggler-icon:nth-child(2){
+    margin-left:4px ;
+  }
+  .navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  color: #fff;
+  }
+  .navbar-brand{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  width: 500;
+  }
+  .container .navbar-collapse ul{
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 50px;
+  }
+  .navbar .container .navbar-collapse ul a{
+  color: #fff;
+  margin-left: 15px;
+  }
+  .navbar .container .navbar-collapse ul a:hover{
+  color: #0078FF;
+  }

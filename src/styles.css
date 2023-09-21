@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+  }
+  *{
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  }
+  ul,ol{
+  list-style-type: none;
+  }
+  .container{
+  width: 90%;
+  }
+  
+  .sec-gap{
+    padding: 100px 0 ;
+  }
+  .main-title h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+  .main-title h6{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  }
+  .main-title .line{
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+  }
+  a{
+  text-decoration: none;
+  }
